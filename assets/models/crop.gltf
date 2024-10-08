@@ -1,0 +1,164 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Open Asset Import Library (assimp v5.4.0)"
+  },
+  "extensionsUsed": ["KHR_materials_volume", "FB_ngon_encoding"],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 15208,
+      "type": "VEC3",
+      "max": [0.444254994392395, 0.4688364267349243, 0.24870437383651733],
+      "min": [-0.400213360786438, -0.4243488609790802, -0.2996046543121338]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 15208,
+      "type": "VEC3",
+      "max": [0.9998009204864502, 0.9979138970375061, 0.9999521374702454],
+      "min": [-0.9999387264251709, -0.9999996423721313, -0.9999293088912964]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 15208,
+      "type": "VEC2",
+      "max": [0.9933333396911621, 0.9933333396911621],
+      "min": [0.0071462965570390224, 0.0033333301544189453]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 83232,
+      "type": "SCALAR",
+      "max": [15207],
+      "min": [0]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 819584,
+      "uri": "crop.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 182496,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 182496,
+      "byteLength": 182496,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 364992,
+      "byteLength": 121664,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 486656,
+      "byteLength": 332928,
+      "target": 34963
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/image_0.png"
+    },
+    {
+      "uri": "textures/image_1.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Mat_1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0011613862589001656,
+        "roughnessFactor": 0.9981940388679504
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "meshes[0]",
+      "primitives": [
+        {
+          "mode": 4,
+          "material": 0,
+          "indices": 3,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "crop",
+      "children": [1]
+    },
+    {
+      "name": "world",
+      "children": [2],
+      "extras": {
+        "name": "world"
+      }
+    },
+    {
+      "name": "geometry_0",
+      "mesh": 0,
+      "extras": {
+        "processed": true,
+        "name": "geometry_0"
+      }
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [0]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 1
+    }
+  ],
+  "scene": 0
+}

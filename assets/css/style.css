@@ -302,12 +302,12 @@ button {
 }
 
 .home_blob {
-  width: 200px !important;
+  width: 160px !important;
   fill: var(--first-color) !important;
 }
 
 .home_blob-img {
-  width: 220px !important;
+  width: 180px !important;
 }
 
 .blob {
@@ -958,16 +958,16 @@ button {
   }
 
   .home_container {
-    row-gap: 5rem !important;
+    row-gap: 1rem !important;
   }
 
   .home_content {
-    padding-top: 5.5rem !important;
-    column-gap: 2rem !important;
+    padding-top: 0rem !important;
+    column-gap: 1rem !important;
   }
 
   .home_blob {
-    width: 270px !important;
+    width: 240px !important;
   }
 
   .home_scroll {
@@ -1055,7 +1055,7 @@ button {
   }
 
   .home_blob {
-    width: 320px !important;
+    width: 240px !important;
   }
 
   .home_social {
