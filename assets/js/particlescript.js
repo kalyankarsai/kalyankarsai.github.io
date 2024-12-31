@@ -105,7 +105,7 @@ function tick() {
 tick();
 
 // Theme Toggle Functionality
-var themeToggle = document.getElementById("themeToggle");
+var themeToggle = document.getElementById("theme-button");
 
 themeToggle.addEventListener("change", function () {
   if (themeToggle.checked) {
